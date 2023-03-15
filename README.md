@@ -1,27 +1,28 @@
-
-
-<!--Za upute o sintaksi koju možete koristiti u ovom dokumentu i kod pisanje vaše projektne dokumentacije pogledajte [ovaj link](https://guides.github.com/features/mastering-markdown/).
-Sav programski kod potrebno je verzionirati u glavnoj **master** grani i **obvezno** smjestiti u mapu Software. Sve artefakte (npr. slike) koje ćete koristiti u vašoj dokumentaciju obvezno verzionirati u posebnoj grani koja je već kreirana i koja se naziva **master-docs** i smjestiti u mapu Documentation.
-
-Nakon vaše prijave bit će vam dodijeljen mentor s kojim ćete tijekom semestra raditi na ovom projektu. Mentor će vam slati povratne informacije kroz sekciju Discussions također dostupnu na GitHubu vašeg projekta. A sada, vrijeme je da prijavite vaš projekt. Za prijavu vašeg projektnog prijedloga molimo vas koristite **predložak** koji je naveden u nastavku, a započnite tako da kliknete na *olovku* u desnom gornjem kutu ovoga dokumenta :) -->
-
 # Buketomat
 
+<a href="https://youtu.be/3nmdqTU8G0w">Video koji prikazuje sve funkcionalnosti aplikacije</a>
 
 ## Projektni tim
-(svi članovi tima moraju biti iz iste seminarske grupe)
 
-Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime | Seminarska grupa
-------------  | ------------------- | ----- | --------------------- | ----------------
-Martin Friščić | mfriscic20@student.foi.hr |  | mfriscic20 | G02
-Ana Škarica | askarica20@student.foi.hr |  | askarica20 | G02
-Filip Milohanović | fmilohano20@student.foi.hr |  | fmilohano20 | G02
+Ime i prezime | Github account
+------------ | ------------
+Martin Friščić | @Fr1k1
+Ana Škarica | @CroAnna
+Filip Milohanović | @Filip1402
 
 ## Opis domene
 <!--Umjesto ovih uputa opišite domenu ili problem koji pokrivate vašim projektom. Domena može biti proizvoljna, ali obratite pozornost da sukladno ishodima učenja, domena omogući primjenu zahtijevanih koncepata kako je to navedeno u sljedećem poglavlju. Priložite odgovarajuće skice gdje je to prikladno.-->
 
 Aplikacija Buketomat će omogućiti izradu personaliziranog buketa temeljem ponuđenih vrsta cvijeća, naručivanje buketa i odabir gotovih buketa za različite prigode.
 Osim toga biti će omogućeno nasumično odabiranje nekog od gotovih buketa. Radi boljeg korisničkog iskustva bit će omogućeno kontaktiranje korisničke podrške putem mail adrese te odabir kada se naručeni buket želi preuzeti.
+
+## Prikaz aplikacije
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/popis-buketa.png" width="220px"></img>
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/izrada-vlastitog-buketa.png" width="220px"></img>
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/moja-narudzba.png" width="220px"></img>
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/kosarica.png" width="220px"></img>
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/odabir-preuzimanja.png" width="220px"></img>
+<img src="https://github.com/CroAnna/Buketomat/blob/master/screenshots/slanje-maila.png" width="220px"></img>
 
 ## Specifikacija projekta
 <!--Umjesto ovih uputa opišite zahtjeve za funkcionalnošću mobilne aplikacije ili aplikacije za pametne uređaje. Pobrojite osnovne funkcionalnosti i za svaku naznačite ime odgovornog člana tima. Opišite osnovnu buduću arhitekturu programskog proizvoda. Obratite pozornost da mobilne aplikacije često zahtijevaju pozadinske servise. Također uzmite u obzir da bi svaki član tima trebao biti odgovoran za otprilike 3 funkcionalnosti, te da bi opterećenje članova tima trebalo biti ujednačeno. Priložite odgovarajuće dijagrame i skice gdje je to prikladno. Funkcionalnosti sustava bobrojite u tablici ispod koristeći predložak koji slijedi:-->
@@ -50,14 +51,6 @@ F09 | Odabir termina dostave | Sustav će omogućiti odabir termina dostave buke
 <li>MySQL Workbench</li>
 </ul>
 
-<h3>Literatura</h3>
-<ul>
-<li>Literatura s kolegija RAMPU</li>
-<li>Internet stranice sa službenom dokumentacijom</li>
-<li>Službeni kod izrađen na laboratorijskim vježbama</li>
-
-</ul>
-
 <h3>Oprema</h3>
 <ul>
 <li>Osobno računalo</li>
@@ -66,8 +59,4 @@ F09 | Odabir termina dostave | Sustav će omogućiti odabir termina dostave buke
 </ul>
 
 ## Baza podataka i web server
-Trebamo bazu podataka i pristup serveru za PHP skripte. 
-
-## .gitignore
-<!--Uzmite u obzir da je u mapi Software .gitignore konfiguriran za nekoliko tehnologija, ali samo ako će projekti biti smješteni direktno u mapu Software ali ne i u neku pod mapu. Nakon odabira konačne tehnologije i projekta obavezno dopunite/premjestite gitignore kako bi vaš projekt zadovoljavao kriterije koji su opisani u ReadMe.md dokumentu dostupnom u mapi Software.-->
-
+MySql baza podataka i pristup pomoću PHP skripti
